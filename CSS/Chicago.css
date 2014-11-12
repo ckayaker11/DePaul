@@ -1,0 +1,297 @@
+/* HTML5 Homework css styles */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	outline: none;
+}
+
+body {
+	font-size: 62.5%;
+	line-height: 1;
+	padding: 20px 0px;
+	<!--background: url(DSCF0012.JPG);
+    background-size: 100% 800px;
+    background-repeat: no-repeat;-->
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after, q:before, q:after {
+	content: '';
+	content: none;
+}
+strong {
+	font-weight: bold;
+}
+
+
+p {
+	font-size: 1.6em;
+	line-height: 1.4em;
+	margin-top: 10px;
+	color: #34282C;
+	font-weight: normal;
+	font-family: 'Open Sans', Arial, sans-serif;
+}
+h1 {
+	font-size: 2.1em;
+	line-height: 1.4em;
+	margin-bottom: 15px;
+	color: white;
+	font-weight: bold;
+	font-family: 'Open Sans', Arial, sans-serif;
+}
+
+h2 {
+	font-size: 2.0em;
+	line-height: 1.4em;
+	margin-top: 12px;
+	color: #34282C;
+	font-weight: bold;
+	font-family: 'Open Sans', Arial, sans-serif;
+}
+
+.w, .dummy_content {
+	width: 900px;
+	margin: 0 auto;
+	margin-bottom: 40px;
+}
+.dummy_content {
+	margin-top:80px;
+}
+.dummy_content > p {
+	margin:10px 0 30px;
+	font-family:Arial, Helvetica, sans-serif;
+	line-height:1.8em;
+}
+
+#menu {
+	position: fixed;
+	height: 60px;
+	width: 100%;
+	top: 0;
+	left: 0;
+	border-top: 2px solid #a1cb2f;
+	background: #080808;
+	-moz-box-shadow: 0 2px 3px 0px rgba(0, 0, 0, 0.16);
+	-webkit-box-shadow: 0 2px 3px 0px rgba(0, 0, 0, 0.16);
+	box-shadow: 0 2px 3px 0px rgba(0, 0, 0, 0.16);
+	z-index: 999999;
+}
+
+.title {
+	position: relative;
+	top: 180px;
+	left: 50px;
+	color: white;
+	font-weight: bold;
+	font-family: 'Open Sans', Arial, sans-serif;
+	font-size: 2.1em;
+	line-height: 1.4em;
+	z-index: 500;
+	border-bottom: 3px solid red;
+}
+
+.smallTitle {
+	position: absolute;
+	top: 236px;
+	left: 50px;
+	color: white;
+	font-weight: normal;
+	font-family: 'Open Sans', Arial, sans-serif;
+	font-size: 1.6em;
+	line-height: 1.4em;
+	z-index: 500;
+}
+#menu h1 {
+	line-height: 60px;
+	color: #F8F8F8;
+}
+
+div.background
+  {
+  width:100%;
+  height:800px;
+  background:url(../Images/Alaska1.JPG) no-repeat;
+  border:0px solid white;
+  } 
+  
+div.background2
+  {
+  width:100%;
+  height:800px;
+  background:url(../Images/AlaskaKayaker.jpg) no-repeat;
+  border:0px solid white;
+  opacity: 1;
+  -webkit-transform:rotate(360deg);
+  transition: 1s;
+  transform:rotate(360deg);
+  } 
+  
+
+}
+  
+  
+  .title {
+	position: relative;
+	top: 180px;
+	left: 50px;
+	color: white;
+	font-weight: bold;
+	font-family: 'Open Sans', Arial, sans-serif;
+	font-size: 2.1em;
+	line-height: 1.4em;
+	z-index: 500;
+	border-bottom: 3px solid red;
+}
+
+.smallTitle {
+	position: absolute;
+	top: 236px;
+	left: 50px;
+	color: white;
+	font-weight: normal;
+	font-family: 'Open Sans', Arial, sans-serif;
+	font-size: 1.6em;
+	line-height: 1.4em;
+	z-index: 500;
+}
+
+.solidRed {
+	color: red;
+}
+
+.solidRed a: hover {
+	color: white;
+}
+
+.solidWhite {
+	color: white;
+}
+
+.solidWhite a: hover{
+	color: white;
+	border-bottom: 3px solid red;
+}
+  
+#topMenu {
+	font-weight: normal;
+	font-family: 'Open Sans', Arial, sans-serif; 
+	font-size: 1.6em;	
+	color: white;
+	width: 900px;
+	margin: 0 auto;
+	margin-top: 20px;
+	font-weight: bold;
+    text-align: center;
+}
+
+#topMenu li { 
+display: inline; 
+padding: 30px; 
+}
+
+#topMenu a {
+    text-decoration: none;
+}
+
+
+#services a:hover {
+	color: white;
+    border-bottom: 3px solid red;
+}
+
+#services a:visited {
+	color: white;
+}
+
+.home  a{
+	color: red;
+}
+
+.home  a:hover{
+	color: red;
+}
+
+#about a:hover {
+	color: white;
+    border-bottom: 3px solid red;
+}
+
+#about a:visited {
+	color: white;
+}
+
+#gov a:hover {
+	color: white;
+    border-bottom: 3px solid red;
+}
+
+#gov a:visited {
+	color: white;
+}
+#programs a:hover {
+	color: white;
+    border-bottom: 3px solid red;
+}
+
+#programs a:visited {
+	color: white;
+}
+
+
+.rightNav {
+    text-align: right;
+	position: absolute;
+	top: 200px;
+	right: 65px;
+	color: white;
+	font-weight: bold;
+	font-family: 'Open Sans', Arial, sans-serif;
+	font-size: 1.6em;
+	line-height: 1.5em;
+	z-index: 500;
+}
+
+.rightNav :hover {
+	cursor: pointer;
+	opacity: 0.5;
+}
+
+
+
+.picContainer {
+	margin-top: 6px;
+	border: 1px solid black;
+	max-height: 220px; 
+	max-width: 360px;
+	box-shadow: 8px 8px 4px #888888;
+}
+
+
+.displayDate	{
+	font-size: 1.4em;
+	line-height: 1.4em;
+	margin-top: 8px;
+	color: #34282C;
+	font-weight: normal;
+	font-family: 'Open Sans', Arial, sans-serif;
+	border-top: 1px solid #34282C;
+}
+
+
+
+
+
+
